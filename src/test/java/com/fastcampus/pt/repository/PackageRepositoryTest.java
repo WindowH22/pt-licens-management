@@ -63,4 +63,19 @@ public class PackageRepositoryTest {
         assertEquals(packageEntity1.getPackageSeq(), packageEntities.get(0).getPackageSeq());
 
     }
+
+    @Test
+    public void test_updateCountAndPeriod(){
+        //given
+        PackageEntity packageEntity = new PackageEntity();
+        packageEntity.setPackageName("바디프로필 이벤트 4개월");
+        packageEntity.setPeriod(90);
+        packageRepository.save(packageEntity);
+        //when
+        int updateCount = packageRepository.updateCountAndPeriod(packageEntity.getPackageSeq(),30, 120);
+        final PackageEntity updatePackageEntity = packageRepository.findById(packageEntity.getPackageSeq()).get();
+
+        //then
+        assertEquals(1,updateCount);
+    }
 }
