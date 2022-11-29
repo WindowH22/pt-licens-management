@@ -1,4 +1,4 @@
-package com.fastcampus.pt.job.notification;
+package job.notification;
 
 import com.fastcampus.pt.adapter.message.KakaoTalkMessageAdapter;
 import com.fastcampus.pt.repository.notification.NotificationEntity;

@@ -1,4 +1,4 @@
-package com.fastcampus.pt.job.pass;
+package job.pass;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
