@@ -22,7 +22,7 @@ public class BulkPassEntity extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private BulkPassStatus status;
-    private Integer remainingCount;
+    private Integer count;
 
     private LocalDateTime startedAt;
     private LocalDateTime endedAt;
