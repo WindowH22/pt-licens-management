@@ -20,6 +20,7 @@ public class NotificationEntity extends BaseEntity {
     private String uuid;
 
 
+    private NotificationEvent event;
     private String text;
     private boolean sent;
     private LocalDateTime sentAt;
