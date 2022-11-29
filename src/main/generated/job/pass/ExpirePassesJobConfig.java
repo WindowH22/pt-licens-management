@@ -1,4 +1,4 @@
-package com.fastcampus.pt.job;
+package job.pass;
 
 import com.fastcampus.pt.repository.pass.PassEntity;
 import com.fastcampus.pt.repository.pass.PassStatus;
