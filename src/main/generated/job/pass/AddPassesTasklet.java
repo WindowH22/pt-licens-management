@@ -1,4 +1,4 @@
-package job.pass;
+package com.fastcampus.pt.job.pass;
 
 import com.fastcampus.pt.repository.pass.*;
 import com.fastcampus.pt.repository.user.UserGroupMappingEntity;
